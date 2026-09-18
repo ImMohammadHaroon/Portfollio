@@ -17,9 +17,9 @@ const EcommerceProject = () => {
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
       <SEOHead
-        title="GearNix - Premium Gaming E-commerce Platform | Muhammad Haroon Portfolio"
-        description="GearNix: A full-stack e-commerce platform for gaming gear built with React.js and Node.js. Features secure payment integration with JazzCash, EasyPaisa, and bank cards. Developed by Muhammad Haroon."
-        keywords="GearNix, E-commerce, React.js, Node.js, JazzCash, EasyPaisa, Payment Integration, Gaming Gear, Full Stack Development, Muhammad Haroon, Mohammad Haroon"
+        title="GearNix - Premium Gaming E-commerce Platform | Mohammad Haroon Portfolio"
+        description="GearNix: A full-stack e-commerce platform for gaming gear built with React.js and Node.js. Features secure payment integration with JazzCash, EasyPaisa, and bank cards. Developed by Mohammad Haroon."
+        keywords="GearNix, E-commerce, React.js, Node.js, JazzCash, EasyPaisa, Payment Integration, Gaming Gear, Full Stack Development, Mohammad Haroon"
         canonicalUrl="https://devowl.me/project/ecommerce"
         ogType="article"
         publishedDate="2025-08-15"
@@ -35,7 +35,7 @@ const EcommerceProject = () => {
           "name": "GearNix: Premium Gaming E-commerce Platform",
           "author": {
             "@type": "Person",
-            "name": "Muhammad Haroon",
+            "name": "Mohammad Haroon",
             "alternateName": "Mohammad Haroon",
             "url": "https://devowl.me/"
           },

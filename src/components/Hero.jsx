@@ -33,7 +33,7 @@ const Hero = () => {
             className={`text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 text-ink-primary dark:text-darkink-primary transform transition-all duration-1000 delay-200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
               }`}
           >
-            Muhammad Haroon
+            Mohammad Haroon
           </h1>
 
           {/* Title */}

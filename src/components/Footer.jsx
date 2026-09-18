@@ -22,7 +22,7 @@ const Footer = () => {
 
   const quickLinks = [
     { name: 'Home', to: 'home', path: '/' },
-    { name: 'About', to: 'about', path: '/muhammad-haroon' },
+    { name: 'About', to: 'about', path: '/mohammad-haroon' },
     { name: 'Skills', to: 'skills' },
     { name: 'Experience', to: 'experience' },
     { name: 'Projects', to: 'work', path: '/projects' },
@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-darkink-primary">DevOwl</h3>
+            <h3 className="text-2xl font-bold text-darkink-primary">Mohammad Haroon</h3>
             <p className="text-darkink-secondary leading-relaxed">
               Full Stack Web Developer specializing in creating responsive and interactive web experiences.
             </p>
@@ -193,7 +193,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Copyright */}
           <p className="text-darkink-secondary text-sm text-center md:text-left">
-            © {new Date().getFullYear()} Muhammad Haroon (DevOwl). All rights reserved.
+            © {new Date().getFullYear()} Mohammad Haroon. All rights reserved.
           </p>
 
           {/* Social Links */}

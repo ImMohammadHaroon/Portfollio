@@ -17,9 +17,9 @@ const ApertureFutures = () => {
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
       <SEOHead
-        title="Aperture Futures - AI-Powered UN Security Council Intelligence | Muhammad Haroon Portfolio"
-        description="Aperture Futures: An AI-powered platform transforming UN Security Council intelligence with RAG architecture. Features BlueLines, LiveLines, and CrossLines for real-time insights and negotiation modeling. Built by Muhammad Haroon."
-        keywords="Aperture Futures, AI, RAG Architecture, UNSC, International Relations, Diplomacy, Python, React, LLM, Machine Learning, Muhammad Haroon, Mohammad Haroon"
+        title="Aperture Futures - AI-Powered UN Security Council Intelligence | Mohammad Haroon Portfolio"
+        description="Aperture Futures: An AI-powered platform transforming UN Security Council intelligence with RAG architecture. Features BlueLines, LiveLines, and CrossLines for real-time insights and negotiation modeling. Built by Mohammad Haroon."
+        keywords="Aperture Futures, AI, RAG Architecture, UNSC, International Relations, Diplomacy, Python, React, LLM, Machine Learning, Mohammad Haroon"
         canonicalUrl="https://devowl.me/project/aperture-futures"
         ogType="article"
         publishedDate="2025-11-01"
@@ -35,7 +35,7 @@ const ApertureFutures = () => {
           "name": "Aperture Futures: AI-Powered UN Security Council Intelligence Platform",
           "author": {
             "@type": "Person",
-            "name": "Muhammad Haroon",
+            "name": "Mohammad Haroon",
             "alternateName": "Mohammad Haroon",
             "url": "https://devowl.me/"
           },

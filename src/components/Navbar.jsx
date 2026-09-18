@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', to: 'home' },
-    { name: 'About', to: 'about', path: '/muhammad-haroon' },
+    { name: 'About', to: 'about', path: '/mohammad-haroon' },
     { name: 'Projects', to: 'work', path: '/projects' },
     { name: 'Research', to: 'publications' },
     { name: 'Contact', to: 'contact' },
@@ -87,14 +87,14 @@ const Navbar = () => {
                 duration={500}
                 className="text-2xl md:text-3xl font-bold text-primary-500 cursor-pointer hover:text-primary-600 transition-colors"
               >
-                DevOwl
+                Mohammad Haroon
               </ScrollLink>
             ) : (
               <RouterLink
                 to="/"
                 className="text-2xl md:text-3xl font-bold text-primary-500 cursor-pointer hover:text-primary-600 transition-colors"
               >
-                DevOwl
+                Mohammad Haroon
               </RouterLink>
             )}
           </div>

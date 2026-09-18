@@ -129,9 +129,9 @@ const MeetingAI = () => {
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
       <SEOHead
-        title="Meeting AI - Full-Stack Meeting Automation Platform | Muhammad Haroon Portfolio"
+        title="Meeting AI - Full-Stack Meeting Automation Platform | Mohammad Haroon Portfolio"
         description="Meeting AI: A production-grade platform for live WebRTC conferencing, Whisper transcription, GPT-powered meeting notes, automated task extraction, contextual AI chat, and Google Meet recording via Chrome extension."
-        keywords="Meeting AI, WebRTC, OpenAI Whisper, GPT-4o, meeting transcription, live conferencing, Chrome extension, Google Meet, Supabase, Socket.io, Muhammad Haroon, Full Stack Developer, React, Node.js"
+        keywords="Meeting AI, WebRTC, OpenAI Whisper, GPT-4o, meeting transcription, live conferencing, Chrome extension, Google Meet, Supabase, Socket.io, Mohammad Haroon, Full Stack Developer, React, Node.js"
         canonicalUrl="https://devowl.me/project/meet-ai"
         ogType="article"
         publishedDate="2025-01-15"
@@ -147,7 +147,7 @@ const MeetingAI = () => {
           name: 'Meeting AI',
           author: {
             '@type': 'Person',
-            name: 'Muhammad Haroon',
+            name: 'Mohammad Haroon',
             alternateName: 'Mohammad Haroon',
             url: 'https://devowl.me/'
           },

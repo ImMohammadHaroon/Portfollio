@@ -1,7 +1,7 @@
-# DevOwl Portfolio — Technical Documentation
+# Mohammad Haroon Portfolio — Technical Documentation
 
 **Live site:** [https://devowl.me](https://devowl.me)  
-**Repository:** Personal portfolio SPA for Muhammad Haroon (DevOwl)  
+**Repository:** Personal portfolio SPA for Mohammad Haroon
 **Package name:** `portfoliio` (v0.0.0)
 
 ---
@@ -10,14 +10,14 @@
 
 ### What this project does
 
-DevOwl Portfolio is a **single-page application (SPA)** that serves as the professional online presence for **Muhammad Haroon**, a Full Stack Web Developer based in Bahawalpur, Pakistan. The site showcases skills, work experience, research publications, and **seven detailed project case studies** with technical breakdowns.
+This is a **single-page application (SPA)** that serves as the professional online presence for **Mohammad Haroon**, a Full Stack Web Developer based in Bahawalpur, Pakistan. The site showcases skills, work experience, research publications, and **seven detailed project case studies** with technical breakdowns.
 
 ### Core problem it solves
 
 Freelance developers and job seekers need a fast, SEO-friendly, visually polished portfolio that:
 
 - Presents credentials and project depth to recruiters and clients
-- Ranks well in search engines for name-based queries (e.g. "Muhammad Haroon portfolio")
+- Ranks well in search engines for name-based queries (e.g. "Mohammad Haroon portfolio")
 - Converts visitors into contacts via a working contact form
 
 This project solves that by combining a performant React frontend, lazy-loaded routes, structured data (JSON-LD), and a production Vercel deployment.
@@ -29,7 +29,7 @@ This project solves that by combining a performant React frontend, lazy-loaded r
 | Recruiters / hiring managers | Review skills, experience, and project depth |
 | Potential freelance clients | Browse case studies and submit inquiries |
 | Search engines / AI crawlers | Index Person, WebSite, CollectionPage, and SoftwareApplication schemas |
-| Muhammad Haroon (owner) | Maintain a single deployable artifact for professional branding |
+| Mohammad Haroon (owner) | Maintain a single deployable artifact for professional branding |
 
 ---
 

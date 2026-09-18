@@ -26,7 +26,7 @@ const NotFound = () => {
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg transition-colors duration-300 flex flex-col">
       <SEOHead
-        title="404 — Page Not Found | Muhammad Haroon Portfolio"
+        title="404 — Page Not Found | Mohammad Haroon Portfolio"
         description="The page you are looking for could not be found."
         ogType="website"
         noIndex

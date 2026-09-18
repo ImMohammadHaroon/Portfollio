@@ -67,8 +67,9 @@ function App() {
                 <Home />
               </>
             } />
-            <Route path="/muhammad-haroon" element={<About />} />
-            <Route path="/about" element={<Navigate to="/muhammad-haroon" replace />} />
+            <Route path="/mohammad-haroon" element={<About />} />
+            <Route path="/muhammad-haroon" element={<Navigate to="/mohammad-haroon" replace />} />
+            <Route path="/about" element={<Navigate to="/mohammad-haroon" replace />} />
             <Route path="/projects" element={<AllProjects />} />
             <Route path="/project/meet-ai" element={<MeetingAI />} />
             <Route path="/project/syeen" element={<Syeen />} />

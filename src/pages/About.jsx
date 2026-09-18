@@ -8,13 +8,13 @@ import aboutImage from '../assets/about.jpeg';
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'Muhammad Haroon',
-  alternateName: ['DevOwl', 'Mohammad Haroon'],
-  url: 'https://devowl.me/muhammad-haroon',
+  name: 'Mohammad Haroon',
+  alternateName: 'Muhammad Haroon',
+  url: 'https://devowl.me/mohammad-haroon',
   image: 'https://devowl.me/profile-photo.webp',
   jobTitle: 'Full Stack Developer',
   description:
-    'Muhammad Haroon is a Full Stack Developer and freelance web developer based in Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress.',
+    'Mohammad Haroon is a Full Stack Developer and freelance web developer based in Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress.',
   hasCredential: {
     '@type': 'EducationalOccupationalCredential',
     name: 'Full Stack Developer Internship Certificate',
@@ -48,15 +48,15 @@ const About = () => {
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg transition-colors duration-300">
       <SEOHead
-        title="Muhammad Haroon | Full Stack Developer & Freelance Web Developer"
-        description="Muhammad Haroon is a Full Stack Developer and freelance web developer from Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress."
-        keywords="Muhammad Haroon, Mohammad Haroon, DevOwl, Full Stack Developer, Freelance Web Developer, Web Developer Bahawalpur, React Developer, WordPress Developer, MERN Stack"
-        canonicalUrl="https://devowl.me/muhammad-haroon"
+        title="Mohammad Haroon | Full Stack Developer & Freelance Web Developer"
+        description="Mohammad Haroon is a Full Stack Developer and freelance web developer from Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress."
+        keywords="Mohammad Haroon, Full Stack Developer, Freelance Web Developer, Web Developer Bahawalpur, React Developer, WordPress Developer, MERN Stack"
+        canonicalUrl="https://devowl.me/mohammad-haroon"
         ogImage="https://devowl.me/profile-photo.webp"
         ogType="profile"
         breadcrumbs={[
           { name: 'Home', url: 'https://devowl.me/' },
-          { name: 'Muhammad Haroon', url: 'https://devowl.me/muhammad-haroon' },
+          { name: 'Mohammad Haroon', url: 'https://devowl.me/mohammad-haroon' },
         ]}
         structuredData={personSchema}
       />
@@ -70,7 +70,7 @@ const About = () => {
               <div className="relative">
                 <img
                   src={aboutImage}
-                  alt="Muhammad Haroon, full stack developer"
+                  alt="Mohammad Haroon, full stack developer"
                   className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
                   width="600"
                   height="800"
@@ -86,7 +86,7 @@ const About = () => {
                   About
                 </p>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-ink-primary dark:text-darkink-primary mb-4">
-                  Muhammad Haroon
+                  Mohammad Haroon
                 </h1>
                 <p className="text-xl md:text-2xl font-semibold text-ink-secondary dark:text-darkink-primary">
                   Full Stack Developer & Freelance Web Developer
@@ -94,7 +94,7 @@ const About = () => {
               </div>
 
               <p className="text-lg text-ink-secondary dark:text-darkink-secondary leading-relaxed">
-                Muhammad Haroon (also known as DevOwl) is a Full Stack Developer based in
+                Mohammad Haroon is a Full Stack Developer based in
                 Bahawalpur, Pakistan. He builds responsive web applications, e-commerce platforms,
                 and SEO-optimized WordPress sites using React.js, Node.js, MongoDB, and modern
                 JavaScript.

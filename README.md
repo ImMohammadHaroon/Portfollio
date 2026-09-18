@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🦉 DevOwl Portfolio
+# 🦉 Mohammad Haroon Portfolio
 
-**Muhammad Haroon** · Full Stack Web Developer · Bahawalpur, Pakistan
+**Mohammad Haroon** · Full Stack Web Developer · Bahawalpur, Pakistan
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-devowl.me-609966?style=flat-square&logo=vercel&logoColor=white)](https://devowl.me)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
@@ -34,7 +34,7 @@ A personal portfolio SPA showcasing full-stack web development and AI/ML project
 
 ## 🚀 Overview
 
-DevOwl is a production-ready personal portfolio for **Muhammad Haroon**, a Full Stack Web Developer specializing in React.js, WordPress, and Node.js. The site is built as a React 19 + Vite SPA and includes:
+This is a production-ready personal portfolio for **Mohammad Haroon**, a Full Stack Web Developer specializing in React.js, WordPress, and Node.js. The site is built as a React 19 + Vite SPA and includes:
 
 - **6 in-depth case study pages** with technical breakdowns, challenges, and metrics
 - **Dark / Light mode** via ThemeContext with Tailwind semantic classes
@@ -269,6 +269,6 @@ To deploy your own fork:
 
 **Available for freelance work** · React.js · WordPress · Node.js · Full Stack
 
-© 2025 Muhammad Haroon · DevOwl · Bahawalpur, Pakistan
+© 2025 Mohammad Haroon · Bahawalpur, Pakistan
 
 </div>

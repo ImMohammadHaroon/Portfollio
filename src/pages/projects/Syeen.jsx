@@ -17,9 +17,9 @@ const Syeen = () => {
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
       <SEOHead
-        title="Syeen - Talent & Business Collaboration Platform | Muhammad Haroon Portfolio"
-        description="Syeen: A comprehensive WordPress-powered talent and business collaboration platform featuring intelligent job matching, real-time application tracking, and dual-sided dashboards. Built by Muhammad Haroon."
-        keywords="Syeen, Job Portal, Talent Platform, WordPress, Elementor, PHP, Business Collaboration, Application Tracking, Hiring Platform, Muhammad Haroon, Mohammad Haroon"
+        title="Syeen - Talent & Business Collaboration Platform | Mohammad Haroon Portfolio"
+        description="Syeen: A comprehensive WordPress-powered talent and business collaboration platform featuring intelligent job matching, real-time application tracking, and dual-sided dashboards. Built by Mohammad Haroon."
+        keywords="Syeen, Job Portal, Talent Platform, WordPress, Elementor, PHP, Business Collaboration, Application Tracking, Hiring Platform, Mohammad Haroon"
         canonicalUrl="https://devowl.me/project/syeen"
         ogType="article"
         publishedDate="2025-10-15"
@@ -35,7 +35,7 @@ const Syeen = () => {
           "name": "Syeen: Talent & Business Collaboration Platform",
           "author": {
             "@type": "Person",
-            "name": "Muhammad Haroon",
+            "name": "Mohammad Haroon",
             "alternateName": "Mohammad Haroon",
             "url": "https://devowl.me/"
           },
