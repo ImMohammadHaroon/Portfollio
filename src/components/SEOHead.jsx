@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 
 const SEOHead = ({
-    title = "Muhammad Haroon | Full Stack Developer & Freelance Web Developer",
-    description = 'Muhammad Haroon is a Full Stack Developer and freelance web developer from Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress.',
-    keywords = "Muhammad Haroon, Mohammad Haroon, Muhammad Haroon Portfolio, Mohammad Haroon Portfolio, Haroon's Portfolio, Full Stack Developer, Freelance Web Developer, Web Developer Bahawalpur, React Developer, WordPress Developer, Portfolio",
+    title = "Mohammad Haroon | Full Stack Developer & Freelance Web Developer",
+    description = 'Mohammad Haroon is a Full Stack Developer and freelance web developer from Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress.',
+    keywords = "Mohammad Haroon, Mohammad Haroon Portfolio, Full Stack Developer, Freelance Web Developer, Web Developer Bahawalpur, React Developer, WordPress Developer, Portfolio",
     canonicalUrl = 'https://devowl.me/',
     ogImage = 'https://devowl.me/profile-photo.webp',
     ogType = 'website',
-    author = 'Muhammad Haroon',
+    author = 'Mohammad Haroon',
     publishedDate = null,
     modifiedDate = null,
     structuredData = null,
@@ -44,7 +44,7 @@ const SEOHead = ({
         updateMetaTag('og:url', canonicalUrl, true);
         updateMetaTag('og:image', ogImage, true);
         updateMetaTag('og:type', ogType, true);
-        updateMetaTag('og:site_name', "DevOwl Portfolio", true);
+        updateMetaTag('og:site_name', "Mohammad Haroon Portfolio", true);
         updateMetaTag('og:locale', 'en_US', true);
 
         // Update Twitter Card tags
@@ -52,8 +52,6 @@ const SEOHead = ({
         updateMetaTag('twitter:title', title);
         updateMetaTag('twitter:description', description);
         updateMetaTag('twitter:image', ogImage);
-        updateMetaTag('twitter:site', '@DevOwl');
-        updateMetaTag('twitter:creator', '@DevOwl');
 
         // Article-specific meta tags
         if (ogType === 'article' && publishedDate) {

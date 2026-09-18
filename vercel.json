@@ -1,4 +1,11 @@
 {
+    "redirects": [
+        {
+            "source": "/muhammad-haroon",
+            "destination": "/mohammad-haroon",
+            "permanent": true
+        }
+    ],
     "rewrites": [
         {
             "source": "/(.*)",

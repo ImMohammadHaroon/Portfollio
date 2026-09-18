@@ -134,9 +134,9 @@ const MaritimeLink = () => {
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
       <SEOHead
-        title="MaritimeLink - Maritime Workforce Platform | Muhammad Haroon Portfolio"
+        title="MaritimeLink - Maritime Workforce Platform | Mohammad Haroon Portfolio"
         description="MaritimeLink: A production React SPA connecting seafarers, recruiters, training providers, and admins through maritime CVs, document wallets, job marketplace, course bookings, KYC compliance, and real-time messaging."
-        keywords="MaritimeLink, maritime workforce, seafarer platform, React, Vite, Socket.IO, Stripe, KYC, maritime recruitment, training provider, Muhammad Haroon, Full Stack Developer"
+        keywords="MaritimeLink, maritime workforce, seafarer platform, React, Vite, Socket.IO, Stripe, KYC, maritime recruitment, training provider, Mohammad Haroon, Full Stack Developer"
         canonicalUrl="https://devowl.me/project/maritime-link"
         ogType="article"
         publishedDate="2025-06-01"
@@ -152,7 +152,7 @@ const MaritimeLink = () => {
           name: 'MaritimeLink',
           author: {
             '@type': 'Person',
-            name: 'Muhammad Haroon',
+            name: 'Mohammad Haroon',
             alternateName: 'Mohammad Haroon',
             url: 'https://devowl.me/'
           },
