@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEOHead from '../../components/SEOHead';
+import PageTitle from '../../components/PageTitle';
 import ProjectPageNav from '../../components/ProjectPageNav';
 import maritimeLinkCover from '../../assets/maritimelink.jpeg';
 
@@ -133,42 +133,7 @@ const MaritimeLink = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
-      <SEOHead
-        title="MaritimeLink - Maritime Workforce Platform | Mohammad Haroon Portfolio"
-        description="MaritimeLink: A production React SPA connecting seafarers, recruiters, training providers, and admins through maritime CVs, document wallets, job marketplace, course bookings, KYC compliance, and real-time messaging."
-        keywords="MaritimeLink, maritime workforce, seafarer platform, React, Vite, Socket.IO, Stripe, KYC, maritime recruitment, training provider, Mohammad Haroon, Full Stack Developer"
-        canonicalUrl="https://devowl.me/project/maritime-link"
-        ogType="article"
-        publishedDate="2025-06-01"
-        modifiedDate="2026-06-16"
-        breadcrumbs={[
-          { name: 'Home', url: 'https://devowl.me/' },
-          { name: 'Projects', url: 'https://devowl.me/projects' },
-          { name: 'MaritimeLink', url: 'https://devowl.me/project/maritime-link' }
-        ]}
-        structuredData={{
-          '@context': 'https://schema.org',
-          '@type': 'SoftwareApplication',
-          name: 'MaritimeLink',
-          author: {
-            '@type': 'Person',
-            name: 'Mohammad Haroon',
-            alternateName: 'Mohammad Haroon',
-            url: 'https://devowl.me/'
-          },
-          description: 'Frontend SPA for the MaritimeLink maritime workforce platform — credential management, job marketplace, training bookings, KYC compliance, and real-time messaging across four user personas.',
-          applicationCategory: 'BusinessApplication',
-          operatingSystem: 'Web',
-          offers: {
-            '@type': 'Offer',
-            price: '0',
-            priceCurrency: 'USD'
-          },
-          keywords: 'Maritime, React, Vite, Socket.IO, Stripe, KYC, Full Stack Development',
-          datePublished: '2025-06-01',
-          programmingLanguage: ['JavaScript', 'React', 'JSX']
-        }}
-      />
+      <PageTitle title="MaritimeLink - Maritime Workforce Platform | Mohammad Haroon Portfolio" />
       <Navbar />
 
       <div className="relative bg-bg-main dark:bg-darkbg py-20 overflow-hidden">

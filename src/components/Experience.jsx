@@ -32,11 +32,10 @@ const Experience = () => {
       company: 'Arkidu Development',
       duration: 'April 2024 - Feb 2025',
       location: 'Islamabad, Remote',
-      description: 'Specialized in building and customizing responsive WordPress websites with a focus on user experience and SEO optimization.',
+      description: 'Specialized in building and customizing responsive WordPress websites with a focus on user experience.',
       responsibilities: [
         'Built and customized responsive WordPress websites using Elementor',
         'Implemented WordPress plugins and custom functionality',
-        'Applied SEO best practices to improve website visibility',
         'Collaborated with clients to deliver high-quality web solutions',
       ],
       color: 'from-indigo-500 to-purple-600',

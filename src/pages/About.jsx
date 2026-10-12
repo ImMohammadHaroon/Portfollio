@@ -2,43 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import SEOHead from '../components/SEOHead';
+import PageTitle from '../components/PageTitle';
 import aboutImage from '../assets/about.jpeg';
-
-const personSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Mohammad Haroon',
-  alternateName: 'Muhammad Haroon',
-  url: 'https://devowl.me/mohammad-haroon',
-  image: 'https://devowl.me/profile-photo.webp',
-  jobTitle: 'Full Stack Developer',
-  description:
-    'Mohammad Haroon is a Full Stack Developer and freelance web developer based in Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress.',
-  hasCredential: {
-    '@type': 'EducationalOccupationalCredential',
-    name: 'Full Stack Developer Internship Certificate',
-    credentialCategory: 'Internship Certificate',
-    recognizedBy: {
-      '@type': 'Organization',
-      name: 'ML Bench',
-    },
-  },
-  alumniOf: {
-    '@type': 'CollegeOrUniversity',
-    name: 'CUVAS Bahawalpur',
-  },
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Bahawalpur',
-    addressCountry: 'PK',
-  },
-  sameAs: [
-    'https://github.com/ImMohammadHaroon',
-    'https://www.linkedin.com/in/mohammad-haroon-9b9356362/',
-    'https://www.instagram.com/mohammad_haro.on',
-  ],
-};
 
 const About = () => {
   useEffect(() => {
@@ -47,19 +12,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg transition-colors duration-300">
-      <SEOHead
-        title="Mohammad Haroon | Full Stack Developer & Freelance Web Developer"
-        description="Mohammad Haroon is a Full Stack Developer and freelance web developer from Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress."
-        keywords="Mohammad Haroon, Full Stack Developer, Freelance Web Developer, Web Developer Bahawalpur, React Developer, WordPress Developer, MERN Stack"
-        canonicalUrl="https://devowl.me/mohammad-haroon"
-        ogImage="https://devowl.me/profile-photo.webp"
-        ogType="profile"
-        breadcrumbs={[
-          { name: 'Home', url: 'https://devowl.me/' },
-          { name: 'Mohammad Haroon', url: 'https://devowl.me/mohammad-haroon' },
-        ]}
-        structuredData={personSchema}
-      />
+      <PageTitle title="Mohammad Haroon | Full Stack Developer & Freelance Web Developer" />
       <Navbar />
 
       <main className="pt-24 pb-20">
@@ -96,7 +49,7 @@ const About = () => {
               <p className="text-lg text-ink-secondary dark:text-darkink-secondary leading-relaxed">
                 Mohammad Haroon is a Full Stack Developer based in
                 Bahawalpur, Pakistan. He builds responsive web applications, e-commerce platforms,
-                and SEO-optimized WordPress sites using React.js, Node.js, MongoDB, and modern
+                and WordPress sites using React.js, Node.js, MongoDB, and modern
                 JavaScript.
               </p>
 

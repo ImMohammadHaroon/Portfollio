@@ -68,7 +68,6 @@ const ExperienceTimeline = () => {
         'React.js',
         'Elementor',
         'JavaScript',
-        'SEO',
       ],
       achievements: [],
     },
@@ -78,11 +77,10 @@ const ExperienceTimeline = () => {
       duration: 'April 2024 - Feb 2025',
       location: 'Islamabad, Remote',
       description:
-        'Built and customized responsive WordPress websites with focus on user experience and SEO.',
+        'Built and customized responsive WordPress websites with a focus on user experience.',
       responsibilities: [
         'Developed WordPress websites using Elementor',
         'Implemented plugins and custom functionality',
-        'Applied SEO best practices',
       ],
       technologies: [
         'WordPress',

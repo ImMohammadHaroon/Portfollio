@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEOHead from '../../components/SEOHead';
+import PageTitle from '../../components/PageTitle';
 import ProjectPageNav from '../../components/ProjectPageNav';
 import ApertureImage from '../../assets/bluelines-lifeline-rag.webp';
 
@@ -16,42 +16,7 @@ const ApertureFutures = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
-      <SEOHead
-        title="Aperture Futures - AI-Powered UN Security Council Intelligence | Mohammad Haroon Portfolio"
-        description="Aperture Futures: An AI-powered platform transforming UN Security Council intelligence with RAG architecture. Features BlueLines, LiveLines, and CrossLines for real-time insights and negotiation modeling. Built by Mohammad Haroon."
-        keywords="Aperture Futures, AI, RAG Architecture, UNSC, International Relations, Diplomacy, Python, React, LLM, Machine Learning, Mohammad Haroon"
-        canonicalUrl="https://devowl.me/project/aperture-futures"
-        ogType="article"
-        publishedDate="2025-11-01"
-        modifiedDate="2026-01-31"
-        breadcrumbs={[
-          { name: "Home", url: "https://devowl.me/" },
-          { name: "Projects", url: "https://devowl.me/projects" },
-          { name: "Aperture Futures", url: "https://devowl.me/project/aperture-futures" }
-        ]}
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Aperture Futures: AI-Powered UN Security Council Intelligence Platform",
-          "author": {
-            "@type": "Person",
-            "name": "Mohammad Haroon",
-            "alternateName": "Mohammad Haroon",
-            "url": "https://devowl.me/"
-          },
-          "description": "An AI-powered platform transforming UN Security Council intelligence through advanced RAG architecture, empowering governments, diplomats, and advocacy networks with real-time insights and negotiation intelligence.",
-          "applicationCategory": "BusinessApplication",
-          "operatingSystem": "Web",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-          },
-          "keywords": "AI, RAG, International Relations, UNSC, Diplomacy, NLP",
-          "datePublished": "2025-11-01",
-          "programmingLanguage": ["Python", "JavaScript", "React", "Flask"]
-        }}
-      />
+      <PageTitle title="Aperture Futures - AI-Powered UN Security Council Intelligence | Mohammad Haroon Portfolio" />
       <Navbar />
 
       {/* Hero Section */}

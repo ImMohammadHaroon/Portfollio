@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEOHead from '../../components/SEOHead';
+import PageTitle from '../../components/PageTitle';
 import ProjectPageNav from '../../components/ProjectPageNav';
 import FoncentraImage from '../../assets/foncentra.webp';
 
@@ -16,42 +16,7 @@ const Foncentra = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
-      <SEOHead
-        title="Foncentra - E-Learning & Digital Publishing Platform | Mohammad Haroon Portfolio"
-        description="Foncentra: A modern e-learning and digital publishing platform built with WordPress and GSAP animations. Features blogs, articles, and eBooks for personal growth and productivity. Developed by Mohammad Haroon."
-        keywords="Foncentra, E-Learning Platform, WordPress, GSAP Animation, Digital Publishing, Education, Personal Growth, Productivity, Mohammad Haroon"
-        canonicalUrl="https://devowl.me/project/foncentra"
-        ogType="article"
-        publishedDate="2025-09-01"
-        modifiedDate="2026-01-31"
-        breadcrumbs={[
-          { name: "Home", url: "https://devowl.me/" },
-          { name: "Projects", url: "https://devowl.me/projects" },
-          { name: "Foncentra", url: "https://devowl.me/project/foncentra" }
-        ]}
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Foncentra: E-Learning & Digital Publishing Platform",
-          "author": {
-            "@type": "Person",
-            "name": "Mohammad Haroon",
-            "alternateName": "Mohammad Haroon",
-            "url": "https://devowl.me/"
-          },
-          "description": "A modern e-learning platform delivering valuable insights through blogs, articles, and eBooks to help users achieve personal growth and productivity.",
-          "applicationCategory": "EducationalApplication",
-          "operatingSystem": "Web",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-          },
-          "keywords": "E-Learning, WordPress, GSAP, Digital Publishing, Education",
-          "datePublished": "2025-09-01",
-          "programmingLanguage": ["PHP", "JavaScript", "CSS", "HTML"]
-        }}
-      />
+      <PageTitle title="Foncentra - E-Learning & Digital Publishing Platform | Mohammad Haroon Portfolio" />
       <Navbar />
 
       {/* Hero Section */}
@@ -357,9 +322,9 @@ const Foncentra = () => {
                 </div>
               </div>
               <div className="bg-bg-surface dark:bg-darksurface rounded-xl p-6 border border-border dark:border-darkborder shadow-sm">
-                <h4 className="font-semibold text-ink-primary dark:text-darkink-primary mb-4 text-lg">Performance & SEO</h4>
+                <h4 className="font-semibold text-ink-primary dark:text-darkink-primary mb-4 text-lg">Performance</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['WP Rocket', 'Yoast SEO', 'Cloudflare', 'Image Optimization', 'Lazy Loading'].map((tech) => (
+                  {['WP Rocket', 'Cloudflare', 'Image Optimization', 'Lazy Loading'].map((tech) => (
                     <span key={tech} className="px-3 py-1.5 bg-bg-subtle dark:bg-darksubtle text-ink-secondary dark:text-darkink-secondary text-sm font-medium rounded-full border border-border dark:border-darkborder">
                       {tech}
                     </span>

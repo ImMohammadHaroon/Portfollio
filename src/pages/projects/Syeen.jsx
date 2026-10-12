@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEOHead from '../../components/SEOHead';
+import PageTitle from '../../components/PageTitle';
 import ProjectPageNav from '../../components/ProjectPageNav';
 import SyeenImage from '../../assets/Syeen.webp';
 
@@ -16,42 +16,7 @@ const Syeen = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
-      <SEOHead
-        title="Syeen - Talent & Business Collaboration Platform | Mohammad Haroon Portfolio"
-        description="Syeen: A comprehensive WordPress-powered talent and business collaboration platform featuring intelligent job matching, real-time application tracking, and dual-sided dashboards. Built by Mohammad Haroon."
-        keywords="Syeen, Job Portal, Talent Platform, WordPress, Elementor, PHP, Business Collaboration, Application Tracking, Hiring Platform, Mohammad Haroon"
-        canonicalUrl="https://devowl.me/project/syeen"
-        ogType="article"
-        publishedDate="2025-10-15"
-        modifiedDate="2026-01-31"
-        breadcrumbs={[
-          { name: "Home", url: "https://devowl.me/" },
-          { name: "Projects", url: "https://devowl.me/projects" },
-          { name: "Syeen", url: "https://devowl.me/project/syeen" }
-        ]}
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Syeen: Talent & Business Collaboration Platform",
-          "author": {
-            "@type": "Person",
-            "name": "Mohammad Haroon",
-            "alternateName": "Mohammad Haroon",
-            "url": "https://devowl.me/"
-          },
-          "description": "A comprehensive WordPress-powered platform connecting businesses with top talent through intelligent job matching, streamlined applications, and real-time collaboration tools.",
-          "applicationCategory": "BusinessApplication",
-          "operatingSystem": "Web",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-          },
-          "keywords": "WordPress, PHP, Elementor, Job Portal, Talent Management",
-          "datePublished": "2025-10-15",
-          "programmingLanguage": ["PHP", "JavaScript", "HTML", "CSS"]
-        }}
-      />
+      <PageTitle title="Syeen - Talent & Business Collaboration Platform | Mohammad Haroon Portfolio" />
       <Navbar />
 
       {/* Hero Section */}
@@ -332,7 +297,7 @@ const Syeen = () => {
               <div className="bg-bg-surface dark:bg-darksurface rounded-xl p-6 border border-border dark:border-darkborder shadow-sm">
                 <h4 className="font-semibold text-ink-primary dark:text-darkink-primary mb-4 text-lg">Plugins & Extensions</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Advanced Custom Fields', 'Contact Form 7', 'Yoast SEO', 'WP Mail SMTP'].map((tech) => (
+                  {['Advanced Custom Fields', 'Contact Form 7', 'WP Mail SMTP'].map((tech) => (
                     <span key={tech} className="px-3 py-1.5 bg-bg-subtle dark:bg-darksubtle text-ink-secondary dark:text-darkink-secondary text-sm font-medium rounded-full border border-border dark:border-darkborder">
                       {tech}
                     </span>

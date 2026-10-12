@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEOHead from '../../components/SEOHead';
+import PageTitle from '../../components/PageTitle';
 import ProjectPageNav from '../../components/ProjectPageNav';
 import EcommerceImage from '../../assets/EcommerceProject.webp';
 
@@ -16,42 +16,7 @@ const EcommerceProject = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
-      <SEOHead
-        title="GearNix - Premium Gaming E-commerce Platform | Mohammad Haroon Portfolio"
-        description="GearNix: A full-stack e-commerce platform for gaming gear built with React.js and Node.js. Features secure payment integration with JazzCash, EasyPaisa, and bank cards. Developed by Mohammad Haroon."
-        keywords="GearNix, E-commerce, React.js, Node.js, JazzCash, EasyPaisa, Payment Integration, Gaming Gear, Full Stack Development, Mohammad Haroon"
-        canonicalUrl="https://devowl.me/project/ecommerce"
-        ogType="article"
-        publishedDate="2025-08-15"
-        modifiedDate="2026-01-31"
-        breadcrumbs={[
-          { name: "Home", url: "https://devowl.me/" },
-          { name: "Projects", url: "https://devowl.me/projects" },
-          { name: "GearNix E-commerce", url: "https://devowl.me/project/ecommerce" }
-        ]}
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "GearNix: Premium Gaming E-commerce Platform",
-          "author": {
-            "@type": "Person",
-            "name": "Mohammad Haroon",
-            "alternateName": "Mohammad Haroon",
-            "url": "https://devowl.me/"
-          },
-          "description": "A full-stack e-commerce platform for gaming enthusiasts featuring secure multi-payment integration with JazzCash, EasyPaisa, and bank cards.",
-          "applicationCategory": "ShoppingApplication",
-          "operatingSystem": "Web",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-          },
-          "keywords": "E-commerce, React.js, Node.js, Payment Integration, Gaming Gear",
-          "datePublished": "2025-08-15",
-          "programmingLanguage": ["JavaScript", "React", "Node.js", "MongoDB"]
-        }}
-      />
+      <PageTitle title="GearNix - Premium Gaming E-commerce Platform | Mohammad Haroon Portfolio" />
       <Navbar />
 
       {/* Hero Section */}

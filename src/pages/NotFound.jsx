@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import SEOHead from "../components/SEOHead";
+import PageTitle from "../components/PageTitle";
 import { useTheme } from "../context/ThemeContext";
 import { Glitchy404 } from "@/components/ui/glitchy-404-1";
 
@@ -25,12 +25,7 @@ const NotFound = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg transition-colors duration-300 flex flex-col">
-      <SEOHead
-        title="404 — Page Not Found | Mohammad Haroon Portfolio"
-        description="The page you are looking for could not be found."
-        ogType="website"
-        noIndex
-      />
+      <PageTitle title="404 — Page Not Found | Mohammad Haroon Portfolio" />
       <Navbar />
       <main className="flex-1 flex flex-col items-center justify-center px-4 py-16">
         <div className="w-full max-w-4xl flex flex-col items-center gap-8 text-center">

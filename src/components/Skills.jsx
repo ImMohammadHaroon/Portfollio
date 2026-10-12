@@ -86,10 +86,6 @@ const Skills = () => {
       name: 'Flask',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',
     },
-    {
-      name: 'SEO',
-      icon: 'https://cdn-icons-png.flaticon.com/512/8099/8099224.png',
-    },
   ];
 
   // Duplicate the skills array to create seamless infinite scroll

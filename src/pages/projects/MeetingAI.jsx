@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEOHead from '../../components/SEOHead';
+import PageTitle from '../../components/PageTitle';
 import ProjectPageNav from '../../components/ProjectPageNav';
 import MeetingAIImage from '../../assets/meeting-ai.webp';
 
@@ -128,42 +128,7 @@ const MeetingAI = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
-      <SEOHead
-        title="Meeting AI - Full-Stack Meeting Automation Platform | Mohammad Haroon Portfolio"
-        description="Meeting AI: A production-grade platform for live WebRTC conferencing, Whisper transcription, GPT-powered meeting notes, automated task extraction, contextual AI chat, and Google Meet recording via Chrome extension."
-        keywords="Meeting AI, WebRTC, OpenAI Whisper, GPT-4o, meeting transcription, live conferencing, Chrome extension, Google Meet, Supabase, Socket.io, Mohammad Haroon, Full Stack Developer, React, Node.js"
-        canonicalUrl="https://devowl.me/project/meet-ai"
-        ogType="article"
-        publishedDate="2025-01-15"
-        modifiedDate="2026-06-11"
-        breadcrumbs={[
-          { name: 'Home', url: 'https://devowl.me/' },
-          { name: 'Projects', url: 'https://devowl.me/projects' },
-          { name: 'Meeting AI', url: 'https://devowl.me/project/meet-ai' }
-        ]}
-        structuredData={{
-          '@context': 'https://schema.org',
-          '@type': 'SoftwareApplication',
-          name: 'Meeting AI',
-          author: {
-            '@type': 'Person',
-            name: 'Mohammad Haroon',
-            alternateName: 'Mohammad Haroon',
-            url: 'https://devowl.me/'
-          },
-          description: 'Full-stack platform automating meeting workflows with live WebRTC conferencing, AI transcription, intelligent notes, task extraction, and contextual chat.',
-          applicationCategory: 'BusinessApplication',
-          operatingSystem: 'Web',
-          offers: {
-            '@type': 'Offer',
-            price: '0',
-            priceCurrency: 'USD'
-          },
-          keywords: 'WebRTC, OpenAI, Whisper, GPT-4o, Full Stack Development, Real-time Conferencing',
-          datePublished: '2025-01-15',
-          programmingLanguage: ['JavaScript', 'React', 'Node.js', 'TypeScript']
-        }}
-      />
+      <PageTitle title="Meeting AI - Full-Stack Meeting Automation Platform | Mohammad Haroon Portfolio" />
       <Navbar />
 
       {/* Hero Section */}

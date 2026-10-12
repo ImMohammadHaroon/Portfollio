@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import Hero from '../components/Hero';
 import ScrollToTop from '../components/ScrollToTop';
-import SEOHead from '../components/SEOHead';
+import PageTitle from '../components/PageTitle';
 import aboutImage from '../assets/about.jpeg';
 
 // Lazy load heavy components to improve initial page load speed
@@ -15,47 +15,9 @@ const Footer = lazy(() => import('../components/Footer'));
 import SectionLoader from '../components/SectionLoader';
 
 const Home = () => {
-  const homeFaqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'Who is Mohammad Haroon?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Mohammad Haroon is a Full Stack Web Developer based in Bahawalpur, Pakistan. He builds React.js, Node.js, MongoDB, WordPress, and e-commerce web projects.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What services does Mohammad Haroon offer?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Mohammad Haroon offers full-stack web development, React.js applications, WordPress and Elementor development, e-commerce development, and SEO-focused website improvements.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Where is Mohammad Haroon based?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Mohammad Haroon is based in Bahawalpur, Pakistan and is available for freelance web development work.',
-        },
-      },
-    ],
-  };
-
   return (
     <div>
-      <SEOHead
-        title="Mohammad Haroon | Full Stack Developer & Freelance Web Developer"
-        description="Mohammad Haroon is a Full Stack Developer and freelance web developer from Bahawalpur, Pakistan, specializing in React.js, Node.js, MongoDB, and WordPress."
-        keywords="Mohammad Haroon, Mohammad Haroon Portfolio, Full Stack Developer, Freelance Web Developer, Web Developer Bahawalpur, React Developer, WordPress Developer, MERN Stack, Pakistan Developer, JavaScript Expert, Node.js Developer"
-        canonicalUrl="https://devowl.me/"
-        ogImage="https://devowl.me/profile-photo.webp"
-        structuredData={homeFaqSchema}
-      />
+      <PageTitle title="Mohammad Haroon | Full Stack Developer & Freelance Web Developer" />
       <Hero />
 
       {/* About Section */}
@@ -94,19 +56,8 @@ const Home = () => {
 
               <p className="text-base md:text-lg text-ink-muted dark:text-darkink-muted leading-relaxed">
                 I completed my Bachelor of Computer Science from Cholistan University of Veterinary &
-                Animal Sciences (CUVAS), Bahawalpur, combining academic knowledge with practical development skills to deliver exceptional web solutions. I specialize in building cutting-edge e-commerce platforms, dynamic web applications, and SEO-optimized websites that drive results.
+                Animal Sciences (CUVAS), Bahawalpur, combining academic knowledge with practical development skills to deliver exceptional web solutions. I specialize in building e-commerce platforms and dynamic web applications.
               </p>
-
-              <div className="space-y-3 pt-2">
-                <h3 className="text-2xl font-bold text-ink-primary dark:text-darkink-primary">
-                  About Mohammad Haroon
-                </h3>
-                <p className="text-base md:text-lg text-ink-muted dark:text-darkink-muted leading-relaxed">
-                  Mohammad Haroon is a Full Stack Web Developer in
-                  Bahawalpur, Pakistan. He builds React.js, Node.js, MongoDB, WordPress, e-commerce, and
-                  SEO-focused web projects for clients and teams.
-                </p>
-              </div>
 
               {/* Key Achievements */}
               <div className="space-y-6 pt-4">
@@ -140,20 +91,6 @@ const Home = () => {
                       <div className="flex-1">
                         <p className="text-sm font-semibold text-ink-primary dark:text-darkink-primary mb-1">E-Commerce</p>
                         <p className="text-xs text-ink-muted dark:text-darkink-muted">Full-stack solutions with React & Node.js</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="group p-5 bg-bg-surface dark:bg-darksurface rounded-xl hover:shadow-lg transition-all duration-300 border border-border dark:border-darkborder hover:border-primary-500">
-                    <div className="flex items-start space-x-3">
-                      <div className="flex-shrink-0 w-10 h-10 bg-primary-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
-                        </svg>
-                      </div>
-                      <div className="flex-1">
-                        <p className="text-sm font-semibold text-ink-primary dark:text-darkink-primary mb-1">SEO Expert</p>
-                        <p className="text-xs text-ink-muted dark:text-darkink-muted">Optimization & lead generation strategies</p>
                       </div>
                     </div>
                   </div>

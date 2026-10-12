@@ -10,7 +10,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat-square&logo=vercel)](https://vercel.com)
 
-A personal portfolio SPA showcasing full-stack web development and AI/ML projects — with 7 detailed case study pages, dark/light theming, lazy-loaded routes, and per-page SEO via JSON-LD structured data.
+A personal portfolio SPA showcasing full-stack web development and AI/ML projects — with 7 detailed case study pages, dark/light theming, and lazy-loaded routes.
 
 [**→ View Live Portfolio**](https://devowl.me)
 
@@ -39,7 +39,6 @@ This is a production-ready personal portfolio for **Mohammad Haroon**, a Full St
 - **6 in-depth case study pages** with technical breakdowns, challenges, and metrics
 - **Dark / Light mode** via ThemeContext with Tailwind semantic classes
 - **Code splitting** — non-home routes and heavy sections (Skills, Projects, Contact) are lazy-loaded
-- **SEO-optimized** — canonical URLs, Open Graph, Twitter cards, and JSON-LD structured data per page
 - **Contact form** powered by [Web3Forms](https://web3forms.com)
 - **Vercel Analytics + Speed Insights** integrated
 - **Custom cursor**, Framer Motion animations, and Framer-powered skill marquee
@@ -53,7 +52,6 @@ This is a production-ready personal portfolio for **Mohammad Haroon**, a Full St
 | **Frontend** | React 19, React Router 7, Framer Motion, react-scroll |
 | **Styling** | Tailwind CSS 3, custom CSS variables, dark mode |
 | **Build** | Vite (rolldown-vite 7.2.5), PostCSS |
-| **SEO** | react-helmet-async, JSON-LD, sitemap.xml, manifest.json |
 | **Forms** | Web3Forms API |
 | **Analytics** | Vercel Analytics, Vercel Speed Insights, Google Tag (G-XYFG6CLB9R) |
 | **Deployment** | Vercel — SPA rewrites + long-cache static headers |
@@ -140,15 +138,14 @@ This is a production-ready personal portfolio for **Mohammad Haroon**, a Full St
 ```
 Portfolio/
 ├── public/
-│   ├── sitemap.xml          # SEO sitemap
 │   ├── manifest.json        # PWA manifest
-│   └── profile-photo.webp   # Profile photo / Open Graph image
+│   └── profile-photo.webp   # Profile photo
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── Footer.jsx
 │   │   ├── CustomCursor.jsx
-│   │   └── SEOHead.jsx      # Per-page SEO via react-helmet-async
+│   │   └── PageTitle.jsx    # Browser tab title per page
 │   ├── sections/            # Home page sections
 │   │   ├── Hero.jsx
 │   │   ├── About.jsx

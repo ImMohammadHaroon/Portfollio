@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import SEOHead from '../../components/SEOHead';
+import PageTitle from '../../components/PageTitle';
 import ProjectPageNav from '../../components/ProjectPageNav';
 import WordyImage from '../../assets/wordy.webp';
 
@@ -65,43 +65,7 @@ const WordyApp = () => {
 
   return (
     <div className="min-h-screen bg-bg-main dark:bg-darkbg">
-      <SEOHead
-        title="Wordy app - WordPress Language Learning App | Mohammad Haroon Portfolio"
-        description="Wordy app is a WordPress-powered language learning project that delivers gentle mini pop-ups and smart repetition for natural vocabulary growth in daily workflows."
-        keywords="Wordy app, language learning app, WordPress project, smart repetition, flashcards, English German Russian Italian, Mohammad Haroon"
-        canonicalUrl="https://devowl.me/project/wordy-app"
-        ogType="article"
-        publishedDate="2026-03-03"
-        modifiedDate="2026-03-03"
-        breadcrumbs={[
-          { name: 'Home', url: 'https://devowl.me/' },
-          { name: 'Projects', url: 'https://devowl.me/projects' },
-          { name: 'Wordy app', url: 'https://devowl.me/project/wordy-app' }
-        ]}
-        structuredData={{
-          '@context': 'https://schema.org',
-          '@type': 'SoftwareApplication',
-          name: 'Wordy app',
-          author: {
-            '@type': 'Person',
-            name: 'Mohammad Haroon',
-            alternateName: 'Mohammad Haroon',
-            url: 'https://devowl.me/'
-          },
-          description:
-            'A gentle language learning app that shows mini vocabulary pop-ups naturally during daily work, browsing, and communication with smart spaced repetition.',
-          applicationCategory: 'EducationalApplication',
-          operatingSystem: 'Web, macOS',
-          offers: {
-            '@type': 'Offer',
-            price: '0',
-            priceCurrency: 'USD'
-          },
-          url: 'https://wordytrainer.com/',
-          programmingLanguage: ['PHP', 'JavaScript', 'HTML', 'CSS'],
-          keywords: 'WordPress, Language Learning, Repetition, Flashcards, ACF, WP REST API'
-        }}
-      />
+      <PageTitle title="Wordy app - WordPress Language Learning App | Mohammad Haroon Portfolio" />
       <Navbar />
 
       <div className="relative bg-bg-main dark:bg-darkbg py-20 overflow-hidden">
