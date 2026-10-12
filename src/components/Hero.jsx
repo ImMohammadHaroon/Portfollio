@@ -41,7 +41,7 @@ const Hero = () => {
             className={`text-xl sm:text-2xl md:text-3xl font-semibold text-ink-secondary dark:text-darkink-primary mb-4 transform transition-all duration-1000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
               }`}
           >
-            Full Stack Web Developer | React.js & WordPress Specialist
+            MERN Stack & Full Stack Web Developer | React.js, Node.js & WordPress
           </h2>
 
           {/* Tagline */}

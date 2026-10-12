@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import mlBenchCertificate from '../assets/ml-bench-certificakte.pdf?url';
 
 const ExperienceTimeline = () => {
   const [visibleCards, setVisibleCards] = useState([]);
@@ -37,10 +36,6 @@ const ExperienceTimeline = () => {
       location: 'Remote',
       status: 'completed',
       logo: 'ML',
-      certificate: {
-        url: mlBenchCertificate,
-        title: 'ML Bench Internship Certificate',
-      },
       description:
         'Completed a 2-month Full Stack internship at ML Bench, building and maintaining web applications using MongoDB, Express.js, React.js, and Node.js. Contributed to real-world projects across frontend UI, REST APIs, and database design.',
       responsibilities: [
@@ -280,34 +275,6 @@ const ExperienceTimeline = () => {
                         </ul>
                       </div>
                     </>
-                  )}
-
-                  {exp.certificate && (
-                    <div className="mt-6 pt-6 border-t border-border dark:border-darkborder">
-                      <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-                        <h4 className="text-lg font-semibold text-ink-primary dark:text-darkink-primary">
-                          Certificate
-                        </h4>
-                        <a
-                          href={exp.certificate.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary-500 hover:bg-primary-600 text-ink-inverse text-sm font-semibold transition-colors"
-                        >
-                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                          </svg>
-                          View certificate
-                        </a>
-                      </div>
-                      <div className="rounded-xl overflow-hidden border border-border dark:border-darkborder bg-bg-subtle dark:bg-darksubtle">
-                        <iframe
-                          src={`${exp.certificate.url}#toolbar=0&navpanes=0`}
-                          title={exp.certificate.title}
-                          className="w-full h-[280px] sm:h-[360px] md:h-[420px] bg-white"
-                        />
-                      </div>
-                    </div>
                   )}
                 </div>
               </div>

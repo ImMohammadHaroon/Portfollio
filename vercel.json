@@ -1,7 +1,14 @@
 {
+    "cleanUrls": true,
+    "trailingSlash": false,
     "redirects": [
         {
             "source": "/muhammad-haroon",
+            "destination": "/mohammad-haroon",
+            "permanent": true
+        },
+        {
+            "source": "/about",
             "destination": "/mohammad-haroon",
             "permanent": true
         }
